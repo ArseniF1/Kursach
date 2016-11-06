@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kursach</string>
+    <string-array name="acidslist">
+        <item>Фосфорная кислота</item>
+        <item>Сероводородная кислота</item>
+        <item>Иодноватистая кислота</item>
+    </string-array>
+    <string name="concentration">Введите концентрацию кислоты </string>
+    <string name="answer">Здесь будет выведен ответ </string>
+    <string name="action">Вычислить</string>
+</resources>

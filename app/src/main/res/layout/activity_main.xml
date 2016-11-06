@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hexcyan"
+    android:layout_gravity="center">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/analytical_chemistry"
+            android:layout_weight="1"
+            style="@style/box_sky_blue"
+            android:text="аналитическая химия"
+            android:onClick="onButtonClicked"/>
+
+        <Button
+            android:id="@+id/krystallchemistry"
+            android:layout_weight="1"
+            style="@style/box_sky_blue"
+            android:text="кристаллохимия"
+            android:onClick="onKrystallClicked"/>
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/organic_chemistry"
+            android:layout_weight="1"
+            style="@style/box_sky_blue"
+            android:text="органическая химия"
+            android:onClick="onOrganicClicked"/>
+
+        <Button
+            android:id="@+id/inorganic_chemistry"
+            android:layout_weight="1"
+            style="@style/box_sky_blue"
+            android:text="неорганическая химия"
+            android:onClick="onInorganicClicked"/>
+
+
+    </TableRow>
+</TableLayout>
